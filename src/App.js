@@ -27,7 +27,7 @@ function App() {
                 <Route path="invoices" element={<Invoices />} />
                 <Route path="file-upload" element={<FileUpload />} />
                 <Route path="settings" element={<Settings />} />
-                <Route path="*" element={<Navigate to="/dashboard" replace />} />
+                <Route path="*" element={<Navigate to="/login" replace />} />
               </Routes>
             </Layout>
           }
