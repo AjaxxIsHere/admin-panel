@@ -28,8 +28,8 @@ function Header({ onSidebarToggle, darkMode, setDarkMode }) {
           {showDropdown && (
             <div className="dropdown">
               <a href="#profile">Profile</a>
-              <a href="#settings">Settings</a>
-              <a href="#logout">Logout</a>
+              <a href="/settings">Settings</a>
+              <a href="/logout">Logout</a>
             </div>
           )}
         </div>
